@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+
+<head>
+    <!-- BASIC DOCUMENT SETTINGS -->
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color"
+          content="#ffffff">
+
+    <!-- PAGE TITLE -->
+    <title>404 - Page Not Found | Azande Hair &amp; Beauty</title>
+
+    <!-- SEO -->
+    <meta name="description"
+          content="The page you requested could not be found. Return to Azande Hair &amp; Beauty to browse hairstyles, request an appointment or contact our Sandton braiding studio.">
+
+    <!--
+        A 404 page should not appear in search results.
+        Do not add a canonical URL to this error page.
+    -->
+    <meta name="robots" content="noindex, follow">
+
+    <!-- SOCIAL SHARING -->
+    <meta property="og:type" content="website">
+
+    <meta property="og:site_name"
+          content="Azande Hair &amp; Beauty">
+
+    <meta property="og:title"
+          content="404 - Page Not Found | Azande Hair &amp; Beauty">
+
+    <meta property="og:description"
+          content="This page is unavailable. Visit Azande Hair &amp; Beauty to explore hairstyles, appointments and contact information.">
+
+    <meta name="twitter:card" content="summary">
+
+    <!-- FONT PERFORMANCE -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Playfair+Display:wght@400;500;600;700;800&amp;display=swap"
+          rel="stylesheet">
+
+    <!-- MATERIAL ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+    <!-- WEBSITE STYLES -->
+    <link href="css/style.css"
+          rel="stylesheet">
+
+    <!-- PAGE-SPECIFIC ACCESSIBILITY AND RESPONSIVENESS -->
+    <style>
+        .error-page {
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 48px 20px;
+            text-align: center;
+        }
+
+        .error-content {
+            width: 100%;
+            max-width: 620px;
+            margin: 0 auto;
+        }
+
+        .error-content > .material-icons {
+            font-size: 64px;
+            color: #d4af37;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .error-content h1 {
+            font-size: clamp(72px, 15vw, 140px);
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        .error-content h2 {
+            font-size: clamp(22px, 4vw, 30px);
+            font-weight: 600;
+            margin-top: 8px;
+        }
+
+        .error-content p {
+            line-height: 1.7;
+            margin: 20px auto 28px;
+            max-width: 480px;
+        }
+
+        .error-actions {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+        }
+
+        .error-actions a {
+            text-decoration: none;
+        }
+
+        .error-actions .btn-gold {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .error-secondary-link {
+            color: #b18d28;
+            font-weight: 600;
+            padding: 12px 8px;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        .error-secondary-link:hover {
+            color: #806516;
+        }
+
+        .error-actions a:focus-visible,
+        .error-help a:focus-visible {
+            outline: 3px solid #d4af37;
+            outline-offset: 4px;
+        }
+
+        .error-help {
+            margin-top: 32px;
+            font-size: 14px;
+        }
+
+        .error-help a {
+            color: #b18d28;
+            font-weight: 600;
+        }
+
+        @media (max-width: 480px) {
+            .error-actions {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .error-actions .btn-gold {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MAIN ERROR PAGE -->
+    <main class="error-page">
+
+        <div class="error-content">
+
+            <!-- DECORATIVE ICON -->
+            <span class="material-icons"
+                  aria-hidden="true">
+                error_outline
+            </span>
+
+            <!-- ERROR CODE -->
+            <h1>404</h1>
+
+            <!-- ERROR HEADING -->
+            <h2>Page Not Found</h2>
+
+            <!-- ERROR DESCRIPTION -->
+            <p>
+                Sorry, the page you're looking for
+                doesn't exist, may have been moved,
+                or the address may have been entered incorrectly.
+            </p>
+
+            <p>
+                You can return to our homepage,
+                explore our braiding styles,
+                or request an appointment.
+            </p>
+
+            <!-- NAVIGATION ACTIONS -->
+            <div class="error-actions">
+
+                <a class="btn-gold"
+                   href="index.html">
+
+                    <span class="material-icons"
+                          aria-hidden="true">
+                        home
+                    </span>
+
+                    Return to Home
+                </a>
+
+                <a class="error-secondary-link"
+                   href="hairstyles.html">
+                    Browse Hairstyles
+                </a>
+
+                <a class="error-secondary-link"
+                   href="book-appointment.html">
+                    Book Appointment
+                </a>
+
+            </div>
+
+            <!-- SUPPORT -->
+            <div class="error-help">
+
+                <p>
+                    Still need assistance?
+                    <a href="contact.html">
+                        Contact Azande Hair &amp; Beauty
+                    </a>
+                    or
+                    <a href="https://wa.me/27614964840"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        message us on WhatsApp
+                    </a>.
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- MAIN WEBSITE JAVASCRIPT -->
+    <script src="js/main.js" defer></script>
+
+</body>
+</html>
